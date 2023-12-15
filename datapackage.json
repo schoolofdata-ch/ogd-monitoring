@@ -1,0 +1,186 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "datasets",
+      "path": "sample.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "title_for_slug",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "id",
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "owner_org",
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "maintainer",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "name": "metadata_created",
+            "type": "datetime",
+            "format": "default"
+          },
+          {
+            "name": "metadata_modified",
+            "type": "datetime",
+            "format": "default"
+          },
+          {
+            "name": "num_resources",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "name.1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "url.1",
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "name": "package_count",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "created",
+            "type": "datetime",
+            "format": "default"
+          },
+          {
+            "name": "political_level",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "id.1",
+            "type": "string",
+            "format": "uuid"
+          },
+          {
+            "name": "id.2",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "download_url",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "created.1",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "rights",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "url.2",
+            "type": "string",
+            "format": "uri"
+          },
+          {
+            "name": "uri",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "id.3",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "download_url.1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "created.2",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "format.1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "rights.1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "url.3",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "uri.1",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "government",
+    "portal"
+  ],
+  "name": "csv-file-der-datensatze-auf-opendata-swiss",
+  "title": " csv-file of the data sets on opendata.swiss",
+  "description": "This dataset contains the most important metadata of all datasets on opendata.swiss per quarter in a csv file. The information can also be retrieved directly from an API query in json format. The first line contains the header data. The values are separated by commas.",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Opendata.ch",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-pddl"
+    }
+  ],
+  "homepage": "https://opendata.swiss/en/dataset/csv-file-der-datensatze-auf-opendata-swiss"
+}

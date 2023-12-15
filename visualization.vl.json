@@ -1,0 +1,50 @@
+{
+  "config": {"view": {"continuousWidth": 600, "continuousHeight": 400}},
+  "data": {"name": "data-bd5edd00fe2a14ccc07b579d7d0961bc"},
+  "mark": {"type": "line", "strokeWidth": 10, "strokeCap": "round"},
+  "encoding": {
+    "color": {"field": "political_level", "type": "nominal"},
+    "x": {"field": "year", "type": "temporal"},
+    "y": {"field": "cumulative count", "type": "quantitative"}
+  },
+  "transform": [
+    {
+      "window": [{"op": "sum", "field": "count", "as": "cumulative count"}],
+      "groupby": ["political_level"]
+    }
+  ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json",
+  "datasets": {
+    "data-bd5edd00fe2a14ccc07b579d7d0961bc": [
+      {"year": "2015", "political_level": "canton", "count": 1253},
+      {"year": "2015", "political_level": "confederation", "count": 3195},
+      {"year": "2015", "political_level": "other", "count": 84},
+      {"year": "2016", "political_level": "canton", "count": 421},
+      {"year": "2016", "political_level": "commune", "count": 659},
+      {"year": "2016", "political_level": "confederation", "count": 506},
+      {"year": "2016", "political_level": "other", "count": 2},
+      {"year": "2017", "political_level": "canton", "count": 661},
+      {"year": "2017", "political_level": "commune", "count": 4},
+      {"year": "2017", "political_level": "confederation", "count": 3},
+      {"year": "2017", "political_level": "other", "count": 135},
+      {"year": "2018", "political_level": "canton", "count": 81},
+      {"year": "2018", "political_level": "commune", "count": 43},
+      {"year": "2018", "political_level": "other", "count": 32},
+      {"year": "2019", "political_level": "canton", "count": 10},
+      {"year": "2019", "political_level": "other", "count": 3},
+      {"year": "2020", "political_level": "canton", "count": 407},
+      {"year": "2020", "political_level": "confederation", "count": 1},
+      {"year": "2021", "political_level": "canton", "count": 171},
+      {"year": "2021", "political_level": "commune", "count": 223},
+      {"year": "2021", "political_level": "confederation", "count": 12},
+      {"year": "2021", "political_level": "other", "count": 492},
+      {"year": "2022", "political_level": "canton", "count": 686},
+      {"year": "2022", "political_level": "commune", "count": 17},
+      {"year": "2022", "political_level": "confederation", "count": 52},
+      {"year": "2022", "political_level": "other", "count": 6},
+      {"year": "2023", "political_level": "canton", "count": 668},
+      {"year": "2023", "political_level": "commune", "count": 16},
+      {"year": "2023", "political_level": "confederation", "count": 2}
+    ]
+  }
+}
